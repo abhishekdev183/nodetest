@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+    <th>Movie name</th>
+    <th>Image Url</th>
+    <th>Movie Summary</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each list}}
+    <tr>
+    <td>{{this.Name}}</td>
+    <td>{{this.Img}}</td>
+    <td>{{this.Summary}}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
